@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <h1>Selamat Ulang Tahun Mas!</h1>
+
+      <img src="assets/foto.jpg" alt="Foto Kita" />
+
+      <audio id="bgMusic" loop>
+        <source src="assets/lagu.mp3" type="audio/mpeg" />
+        Browser kamu tidak mendukung audio.
+      </audio>
+
+      <p class="text">
+        Semoga hari ini penuh senyum dan kebahagiaan✨
+      </p>
+
+      <button
+        onclick="
+          document.getElementById('bgMusic').play();
+          window.location.href = 'second.html';
+        "
+      >
+        Klik aku 💌
+      </button>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
