@@ -75,3 +75,10 @@ button:active {
   color: #1e3c72;
   font-weight: 500;
 }
+
+.cake-gif {
+  width: 180px;
+  max-width: 70%;
+  display: block;
+  margin: 18px auto;
+}
